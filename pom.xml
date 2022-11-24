@@ -35,7 +35,7 @@
 	<artifactId>stakit-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>stakit-backend</name>
-	<description>KITHUGS service</description>
+	<description>StaKit Backend Service</description>
 
 	<properties>
 		<java.version>17</java.version>
