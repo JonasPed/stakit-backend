@@ -29,7 +29,7 @@ paths:
   /v1/hello:
     post:
       tags:
-        - KITHUGS
+        - StaKit
       summary: Call the thugs service
       description: Post your name and get some hugs or meet some thugs.
       requestBody:

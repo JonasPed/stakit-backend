@@ -3,20 +3,20 @@ package dk.kvalitetsit.stakit.integrationtest;
 import org.junit.Test;
 import org.openapitools.client.ApiClient;
 import org.openapitools.client.ApiException;
-import org.openapitools.client.api.KithugsApi;
+import org.openapitools.client.api.StaKitApi;
 import org.openapitools.client.model.HelloRequest;
 
 import static org.junit.Assert.*;
 
 public class HelloIT extends AbstractIntegrationTest {
 
-    private final KithugsApi helloApi;
+    private final StaKitApi helloApi;
 
     public HelloIT() {
         var apiClient = new ApiClient();
         apiClient.setBasePath(getApiBasePath());
 
-        helloApi = new KithugsApi(apiClient);
+        helloApi = new StaKitApi(apiClient);
     }
 
     @Test
